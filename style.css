@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(0, 10%, 92%, 0.82);
+}
+.main{
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-top: none;
+}
+.nav h2{
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+}
+.nav-pages{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.nav button{
+    padding: 1vw 2vw;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2vw;
+    background-color: blue;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5vw;
+    margin-right: 2vw;
+    margin-bottom: 0.5vw;
+}
+.nav i{
+    display: none;
+    font-size: 7vw;
+    justify-content: center;
+    display: none;
+    align-items: center;
+    margin: 2vw;
+    cursor: pointer;
+}
+.content{
+    height: calc(100% - 100px);
+}
+.image{
+    background-image: url(college-image.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;    
+}
+.img-overlay{
+    background-color: hsla(0, 0%, 0%, 0.847);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+
+}
+
+.image-left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 5vw;
+    justify-content: center;
+
+
+}
+.image-left h2{
+    display: flex;
+    width: 80%;
+    font-size: 4vw;
+    color: white;
+    
+}
+.image-left p{
+    display: flex;
+    width: 80%;
+    font-size: 1.7vw;
+    margin-top: 2vw;
+    color: white;
+
+    
+}
+.image-left button{
+    padding: 1vw 2vw;
+    width: 80%;
+    margin-top: 2vw;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+.image-right{
+    width: 40%;
+}
+.image-right img{
+    border-radius: 30px;
+}
+.about{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: red;
+}
+.about-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 5vw;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.about-left h1{
+    width: 80%;
+    font-size: 3vw;
+}
+.about-left p{
+    display: flex;
+    width: 80%;
+    font-size: 1.7vw;
+    margin-top: 2vw;
+    color: black;
+}
+.about-left button{
+    padding: 1vw 2vw;
+    width: 80%;
+    margin-top: 2vw;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+.about-right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-right img{
+    border-radius: 30px;
+}
+.benifit{
+    display: flex;
+    width: 100%;
+    padding: 1vw;
+}
+.benfits1{
+    display: flex;
+    margin: 1vw;
+}
+.benfits1 img{
+    display: flex;
+    width: 100%;
+}
+.benfits2{
+    display: flex;
+    margin: 1vw;
+}
+.benfits2 img{
+    display: flex;
+    width: 100%;
+}
+.benfits3{
+    display: flex;
+    margin: 1vw;
+}
+.benfits3 img{
+    display: flex;
+    width: 100%;
+}
+.data{
+    display: flex;
+    width: 100%;
+}
+.data1{
+    display: flex;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+}
+.data1-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data1-left h1{
+    display: flex;
+    font-size: 3vw;
+    width: 80%;
+}
+.data1-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data1-right p{
+    width: 80%;
+    font-size: 1.3vw;
+}
+.data2{
+    display: flex;
+}
+.datagrade1{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.datagrade1 h1{
+    font-size: 7vw;
+}
+.datagrade1 h3{
+    font-size: 2vw;
+}
+.datagrade2{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.datagrade2 h1{
+    font-size: 7vw;
+}
+.datagrade2 h3{
+    font-size: 2vw;
+    width: 80%;
+    text-align: center;
+}
+.datagrade3{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.datagrade3 h1{
+    font-size: 7vw;
+}
+.datagrade3 h3{
+    font-size: 2vw;
+}
+.mid-image{
+    background-image: url(mid-image.png);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    margin-top: 3vw;
+}
+
+@media (max-width:600px) {
+    .nav h2{
+        font-size: 7vw;
+        display: flex;
+        justify-content: center;
+    }
+    .nav .nav-pages{
+        display: none;
+    }    
+    .nav button{
+        display: none;
+    }  
+    .nav i{
+        display: block;
+    }
+    .image{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .img-overlay{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;        
+    }
+    .image-left{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .content h2{
+        font-size: 7vw;
+
+    }
+    .content p{
+        font-size: 4vw;
+        line-height: 4vh;
+    }
+    .content button{
+        font-size: 1.4vh;
+        padding: 1vw;
+
+    }
+    .image-right{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: end;
+    }
+    .image-right img{
+        width: 400px;
+        height: 400px;
+        margin-bottom: 0;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+
+    }
+    .about-left {
+        width: 100%;
+        height: 100%;
+
+    }
+    .about-left h1{
+        font-size: 4vh;
+        width: 90%;
+        line-height: 4vh;
+    }
+    .about-right{
+        height: 100%;
+    }
+    .about-right img{
+        border-radius: 30px;
+    }
+    .benifit{
+        display: flex;
+        flex-direction: column;
+    }
+    .benfits1{
+        margin: 2vh;
+    }
+    .benfits2{
+        margin: 2vh;
+    }
+    .benfits3{
+        margin: 2vh;
+    }
+    .data1{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+
+    }
+    .data1-left{
+        display: flex;
+        width: 100%;
+
+    }
+    .data1-left h1{
+        font-size: 3vh;
+    }
+    .data1-right{
+        display: flex;
+        width: 100%;
+    }
+    .data1-right p{
+        font-size: 1.3vh;
+        line-height: 1.8vh;
+    }
+    .data2{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+
+
+    }
+    .datagrade1{
+        width: 100%;
+    }
+    .datagrade1 h1{
+        font-size: 4vh;
+
+    }
+    .datagrade1 h3{
+        font-size: 2vh;
+
+    }
+    .datagrade2{
+        width: 100%;
+
+    }
+    .datagrade2 h1{
+        font-size: 4vh;
+    }
+    .datagrade2 h3{
+        font-size: 2vh;
+    }
+    .datagrade3{
+        width: 100%;
+    }
+    .datagrade3 h1{
+        font-size: 4vh;
+    }
+    .datagrade3 h3{
+        font-size: 2vh;
+    }
+    .mid-image{
+        background-image: url(mid-image.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 40vh;
+
+    }
+
+}
