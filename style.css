@@ -217,9 +217,6 @@ html, body{
 }
 .data2{
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 200px;
 }
 .datagrade1{
     width: 33.33%;
